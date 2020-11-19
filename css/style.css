@@ -59,9 +59,9 @@ button {
     margin-left: auto;
 }
 
-.container.header{
+.container.header {
     display: flex;
-    border:none;
+    border: none;
 }
 
 .logo {
@@ -126,12 +126,12 @@ button {
     color: var(--primary-text-color);
 }
 
-.link.active:hover,
-.link.active:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
 
-.nav .link.active.current {
+.nav .link.active{
     color: var(--accent-color);
 }
 
@@ -297,12 +297,12 @@ button {
 
 /*======= Портфолио / filter css =======*/
 
-.portfolio{
+.portfolio {
     padding-top: 94px;
-    padding-bottom: 94px;    
+    padding-bottom: 94px;
 }
 
-.filter{
+.filter {
     display: flex;
     justify-content: center;
 }
@@ -315,12 +315,12 @@ button {
     border-radius: 4px;
 
     color: var(--title-color);
-    background:var(--bg-color);
+    background: var(--bg-color);
     border: transparent;
 }
 
-.filter .item + .item{
-        margin-left: 8px;
+.filter .item+.item {
+    margin-left: 8px;
 }
 
 .filter .btn:hover,
@@ -337,20 +337,20 @@ button {
 
 /*======= Портфолио / samples css =======*/
 
-.samples{
+.samples {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
     margin-top: 50px;
 }
 
-.samples .item{
+.samples .item {
     width: 370px;
     margin: 15px;
-    
+
 }
 
-.samples .wrapper{
+.samples .wrapper {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
