@@ -96,7 +96,7 @@ button {
     color: var(--title-color);
 }
 
-.nav .item + .item {
+.nav .item+.item {
     margin-left: 50px;
 }
 
@@ -104,7 +104,7 @@ button {
     margin-left: auto;
 }
 
-.contacts .item + .item{
+.contacts .item+.item {
     margin-left: 50px;
 }
 
@@ -131,6 +131,10 @@ button {
 
 .hero {
     background: var(--hero-footer-bg-color);
+
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero .title {
@@ -149,13 +153,29 @@ button {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    margin-top: 30px;
+    padding: 10px 32px;
+    border-radius: 4px;
 
     color: var(--white-text-color);
     background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: transparent;
 }
 
 /* ======= Студія / benefits css =======*/
+
+.title-hiden {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .benefits .title {
     font-weight: 700;
@@ -169,26 +189,63 @@ button {
 .benefits .text {
     font-size: 14px;
     line-height: 1.71;
+    margin: 10px 0 0 0;
+}
+
+.benefits .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 94px;
+}
+
+.benefits .item {
+    width: 270px;
+    margin: 15px;
 }
 
 /* ======= Студія / works css =======*/
+
+.works {
+    padding-bottom: 94px;
+}
+
+.works .img {
+    display: block;
+}
 
 .works .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-top: 94px;
 
     color: var(--title-color);
+}
+
+.works .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 50px;
+}
+
+.works .item {
+    width: 370px;
+    margin: 15px;
 }
 
 /* ======= Студія / team css =======*/
 
 .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
     background-color: var(--bg-color-team);
 }
 
-.team>.title {
+.team .main-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -197,11 +254,37 @@ button {
     color: var(--title-color);
 }
 
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 50px;
+}
+
+.description .wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.description .item {
+    margin: 15px;
+    text-align: center;
+    
+
+    background-color:#FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.description .img {
+    display: block;
+}
+
 .description .title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
 
     color: var(--title-color);
 }
@@ -209,7 +292,7 @@ button {
 .description .text {
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
+    margin: 10px 0 0;
 }
 
 /*======= Портфолио / filter css =======*/
