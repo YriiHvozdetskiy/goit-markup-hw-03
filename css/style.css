@@ -51,6 +51,19 @@ button {
 
 /* ======= header css ======= */
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container.header{
+    display: flex;
+    border:none;
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -69,13 +82,8 @@ button {
 }
 
 .header {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header .contacts {
@@ -167,14 +175,6 @@ button {
 
 .title-hiden {
     display: none;
-}
-
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .benefits .title {
