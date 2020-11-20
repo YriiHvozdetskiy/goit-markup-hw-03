@@ -136,7 +136,7 @@ button {
     color: var(--accent-color);
 }
 
-.nav .link.active{
+.nav .link.active {
     color: var(--accent-color);
 }
 
@@ -178,7 +178,7 @@ button {
 
 /* ======= Студія / benefits css =======*/
 
-.benefits{
+.benefits {
     padding-top: 94px;
 }
 
@@ -346,14 +346,14 @@ button {
 .samples {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
     margin-top: 50px;
 }
 
-.samples .item {
-    width: 370px;
-    margin: 15px;
-
+.samples .item:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+.samples .item:not(:nth-last-child(-n+3)){
+    margin-bottom: 30px;
 }
 
 .samples .wrapper {
