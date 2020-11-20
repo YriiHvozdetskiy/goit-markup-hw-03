@@ -212,7 +212,7 @@ button {
 /* ======= Студія / works css =======*/
 
 .works {
-    padding-bottom: 94px;
+    padding: 94px 0px;
 }
 
 .works .img {
@@ -224,7 +224,6 @@ button {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin-top: 94px;
 
     color: var(--title-color);
 }
