@@ -178,6 +178,10 @@ button {
 
 /* ======= Студія / benefits css =======*/
 
+.benefits{
+    padding-top: 94px;
+}
+
 .title-hiden {
     display: none;
 }
@@ -201,7 +205,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    margin-top: 94px;
 }
 
 .benefits .item {
